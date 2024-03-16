@@ -16,7 +16,6 @@ import java.util.UUID;
 public class GestaoCliente implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_cliente")
     private UUID clienteId;
 

@@ -16,8 +16,7 @@ import java.util.UUID;
 @Table(name = "tb_localidade")
 public class Localidade {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id .
     @Column(name = "id_localidade")
     private UUID localidadeId;
 
