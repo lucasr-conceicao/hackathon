@@ -16,7 +16,7 @@ import java.util.UUID;
 @Table(name = "tb_localidade")
 public class Localidade {
 
-    @Id .
+    @Id
     @Column(name = "id_localidade")
     private UUID localidadeId;
 
